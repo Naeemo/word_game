@@ -1,0 +1,3038 @@
+{
+ "afternoon": {
+  "word": "afternoon",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Afternoon",
+  "file": "images/afternoon.png"
+ },
+ "ago": {
+  "word": "ago",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Poster_for_Gilbert_and_Clay%27s_Ages_Ago_at_the_Royal_Gallery_of_Illustration.jpg",
+  "file": "images/ago.png"
+ },
+ "air": {
+  "word": "air",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+  "file": "images/air.png"
+ },
+ "animal": {
+  "word": "animal",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Animal",
+  "file": "images/animal.png"
+ },
+ "answer": {
+  "word": "answer",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Reply_to_Zhantayev_about_Kozhakhmetov.jpg",
+  "file": "images/answer.png"
+ },
+ "apple": {
+  "word": "apple",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Apple",
+  "file": "images/apple.png"
+ },
+ "arm": {
+  "word": "arm",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Arm",
+  "file": "images/arm.png"
+ },
+ "art": {
+  "word": "art",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Art",
+  "file": "images/art.png"
+ },
+ "ask": {
+  "word": "ask",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Ask_sentrum1.jpg",
+  "file": "images/ask.png"
+ },
+ "astronaut": {
+  "word": "astronaut",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Astronaut",
+  "file": "images/astronaut.png"
+ },
+ "aunt": {
+  "word": "aunt",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Aunt",
+  "file": "images/aunt.png"
+ },
+ "autumn": {
+  "word": "autumn",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Autumn",
+  "file": "images/autumn.png"
+ },
+ "baby": {
+  "word": "baby",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Infant",
+  "file": "images/baby.png"
+ },
+ "back": {
+  "word": "back",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Human_back",
+  "file": "images/back.png"
+ },
+ "bag": {
+  "word": "bag",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Bag",
+  "file": "images/bag.png"
+ },
+ "ball": {
+  "word": "ball",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Ball",
+  "file": "images/ball.png"
+ },
+ "banana": {
+  "word": "banana",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Banana",
+  "file": "images/banana.png"
+ },
+ "basketball": {
+  "word": "basketball",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Basketball",
+  "file": "images/basketball.png"
+ },
+ "beach": {
+  "word": "beach",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Beach",
+  "file": "images/beach.png"
+ },
+ "bear": {
+  "word": "bear",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Bear",
+  "file": "images/bear.png"
+ },
+ "bed": {
+  "word": "bed",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Bed",
+  "file": "images/bed.png"
+ },
+ "bee": {
+  "word": "bee",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Bee",
+  "file": "images/bee.png"
+ },
+ "best": {
+  "word": "best",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:T.T_Kapel_Best.JPG",
+  "file": "images/best.png"
+ },
+ "bike": {
+  "word": "bike",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Bicycle",
+  "file": "images/bike.png"
+ },
+ "bird": {
+  "word": "bird",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Bird",
+  "file": "images/bird.png"
+ },
+ "birthday": {
+  "word": "birthday",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Birthday",
+  "file": "images/birthday.png"
+ },
+ "black": {
+  "word": "black",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Black",
+  "file": "images/black.png"
+ },
+ "blackboard": {
+  "word": "blackboard",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Blackboard",
+  "file": "images/blackboard.png"
+ },
+ "blue": {
+  "word": "blue",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Blue",
+  "file": "images/blue.png"
+ },
+ "boat": {
+  "word": "boat",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Boat",
+  "file": "images/boat.png"
+ },
+ "body": {
+  "word": "body",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Human_body",
+  "file": "images/body.png"
+ },
+ "book": {
+  "word": "book",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Book",
+  "file": "images/book.png"
+ },
+ "box": {
+  "word": "box",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Box",
+  "file": "images/box.png"
+ },
+ "boy": {
+  "word": "boy",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Boy",
+  "file": "images/boy.png"
+ },
+ "bread": {
+  "word": "bread",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Bread",
+  "file": "images/bread.png"
+ },
+ "breakfast": {
+  "word": "breakfast",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Breakfast",
+  "file": "images/breakfast.png"
+ },
+ "bring": {
+  "word": "bring",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Bring.jpg",
+  "file": "images/bring.png"
+ },
+ "brother": {
+  "word": "brother",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Brother",
+  "file": "images/brother.png"
+ },
+ "brown": {
+  "word": "brown",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Brown",
+  "file": "images/brown.png"
+ },
+ "bus": {
+  "word": "bus",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Bus",
+  "file": "images/bus.png"
+ },
+ "buy": {
+  "word": "buy",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Eric_Buy.jpg",
+  "file": "images/buy.png"
+ },
+ "cake": {
+  "word": "cake",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Cake",
+  "file": "images/cake.png"
+ },
+ "call": {
+  "word": "call",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:A_Swift%27s_Call_To_Prayer.jpg",
+  "file": "images/call.png"
+ },
+ "candle": {
+  "word": "candle",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Candle",
+  "file": "images/candle.png"
+ },
+ "candy": {
+  "word": "candy",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Candy",
+  "file": "images/candy.png"
+ },
+ "cap": {
+  "word": "cap",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Baseball_cap",
+  "file": "images/cap.png"
+ },
+ "car": {
+  "word": "car",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Car",
+  "file": "images/car.png"
+ },
+ "card": {
+  "word": "card",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Greeting_card",
+  "file": "images/card.png"
+ },
+ "cat": {
+  "word": "cat",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Cat",
+  "file": "images/cat.png"
+ },
+ "catch": {
+  "word": "catch",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Carcharhinus_isodon_in_net.JPG",
+  "file": "images/catch.png"
+ },
+ "chair": {
+  "word": "chair",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Chair",
+  "file": "images/chair.png"
+ },
+ "chicken": {
+  "word": "chicken",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Chicken",
+  "file": "images/chicken.png"
+ },
+ "child": {
+  "word": "child",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Child",
+  "file": "images/child.png"
+ },
+ "china": {
+  "word": "China",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/China",
+  "file": "images/china.png"
+ },
+ "chinese": {
+  "word": "Chinese",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Chinese_Diaspora.jpg",
+  "file": "images/chinese.png"
+ },
+ "chore": {
+  "word": "chore",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Housekeeping_Robot.png",
+  "file": "images/chore.png"
+ },
+ "cinema": {
+  "word": "cinema",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Movie_theater",
+  "file": "images/cinema.png"
+ },
+ "city": {
+  "word": "city",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/City",
+  "file": "images/city.png"
+ },
+ "class": {
+  "word": "class",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:GWR_Class_43_HST_Dawlish.jpg",
+  "file": "images/class.png"
+ },
+ "classroom": {
+  "word": "classroom",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Classroom",
+  "file": "images/classroom.png"
+ },
+ "clever": {
+  "word": "clever",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:CleverIn2024.jpg",
+  "file": "images/clever.png"
+ },
+ "clock": {
+  "word": "clock",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Clock",
+  "file": "images/clock.png"
+ },
+ "close": {
+  "word": "close",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Close_on_tree,_National_Fruit_Collection_(acc._1952-012).jpg",
+  "file": "images/close.png"
+ },
+ "clothes": {
+  "word": "clothes",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Clothing",
+  "file": "images/clothes.png"
+ },
+ "cloudy": {
+  "word": "cloudy",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Cloud",
+  "file": "images/cloudy.png"
+ },
+ "coat": {
+  "word": "coat",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Coat",
+  "file": "images/coat.png"
+ },
+ "colour": {
+  "word": "colour",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Color",
+  "file": "images/colour.png"
+ },
+ "come": {
+  "word": "come",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Plaque_indicative_de_la_Mairie_de_com%C3%A8_au_B%C3%A9nin.jpg",
+  "file": "images/come.png"
+ },
+ "computer": {
+  "word": "computer",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Computer",
+  "file": "images/computer.png"
+ },
+ "cousin": {
+  "word": "cousin",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Victoria_and_her_cousin,_1852.jpg",
+  "file": "images/cousin.png"
+ },
+ "cow": {
+  "word": "cow",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Cattle",
+  "file": "images/cow.png"
+ },
+ "cry": {
+  "word": "cry",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Crying",
+  "file": "images/cry.png"
+ },
+ "cup": {
+  "word": "cup",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Cup",
+  "file": "images/cup.png"
+ },
+ "cut": {
+  "word": "cut",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:CutAB_(6).JPG",
+  "file": "images/cut.png"
+ },
+ "dance": {
+  "word": "dance",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Dance",
+  "file": "images/dance.png"
+ },
+ "desk": {
+  "word": "desk",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Desk",
+  "file": "images/desk.png"
+ },
+ "dinner": {
+  "word": "dinner",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Dinner",
+  "file": "images/dinner.png"
+ },
+ "doctor": {
+  "word": "doctor",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Medical_doctor",
+  "file": "images/doctor.png"
+ },
+ "doll": {
+  "word": "doll",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Doll",
+  "file": "images/doll.png"
+ },
+ "door": {
+  "word": "door",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Door",
+  "file": "images/door.png"
+ },
+ "draw": {
+  "word": "draw",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Drawing",
+  "file": "images/draw.png"
+ },
+ "drink": {
+  "word": "drink",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Drinking",
+  "file": "images/drink.png"
+ },
+ "driver": {
+  "word": "driver",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Kaipan_57_1.8T.jpg",
+  "file": "images/driver.png"
+ },
+ "duck": {
+  "word": "duck",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Duck",
+  "file": "images/duck.png"
+ },
+ "ear": {
+  "word": "ear",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Ear",
+  "file": "images/ear.png"
+ },
+ "earth": {
+  "word": "earth",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Earth",
+  "file": "images/earth.png"
+ },
+ "eat": {
+  "word": "eat",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Eating",
+  "file": "images/eat.png"
+ },
+ "egg": {
+  "word": "egg",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Egg",
+  "file": "images/egg.png"
+ },
+ "elephant": {
+  "word": "elephant",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Elephant",
+  "file": "images/elephant.png"
+ },
+ "email": {
+  "word": "email",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Email",
+  "file": "images/email.png"
+ },
+ "english": {
+  "word": "English",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Estudiantes_vs_Unicaja_M%C3%A1laga_-_Carl_English_y_Zoran_Dragi%C4%87.jpg",
+  "file": "images/english.png"
+ },
+ "evening": {
+  "word": "evening",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Evening",
+  "file": "images/evening.png"
+ },
+ "exercise": {
+  "word": "exercise",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Exercise",
+  "file": "images/exercise.png"
+ },
+ "eye": {
+  "word": "eye",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Eye",
+  "file": "images/eye.png"
+ },
+ "face": {
+  "word": "face",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Face",
+  "file": "images/face.png"
+ },
+ "fan": {
+  "word": "fan",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Fan_%28machine%29",
+  "file": "images/fan.png"
+ },
+ "farm": {
+  "word": "farm",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Farm",
+  "file": "images/farm.png"
+ },
+ "farmer": {
+  "word": "farmer",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Farmer",
+  "file": "images/farmer.png"
+ },
+ "father": {
+  "word": "father",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Father",
+  "file": "images/father.png"
+ },
+ "feel": {
+  "word": "feel",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Feel_zu_Nidderfeelen-102.jpg",
+  "file": "images/feel.png"
+ },
+ "film": {
+  "word": "film",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Film",
+  "file": "images/film.png"
+ },
+ "find": {
+  "word": "find",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Find_And_Replace.png",
+  "file": "images/find.png"
+ },
+ "fire": {
+  "word": "fire",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Fire",
+  "file": "images/fire.png"
+ },
+ "fish": {
+  "word": "fish",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Fish",
+  "file": "images/fish.png"
+ },
+ "floor": {
+  "word": "floor",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Floor",
+  "file": "images/floor.png"
+ },
+ "flower": {
+  "word": "flower",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Flower",
+  "file": "images/flower.png"
+ },
+ "fly": {
+  "word": "fly",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Flight",
+  "file": "images/fly.png"
+ },
+ "food": {
+  "word": "food",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Food",
+  "file": "images/food.png"
+ },
+ "football": {
+  "word": "football",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Association_football",
+  "file": "images/football.png"
+ },
+ "friend": {
+  "word": "friend",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Friendship",
+  "file": "images/friend.png"
+ },
+ "front": {
+  "word": "front",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Western_front_1915-16.jpg",
+  "file": "images/front.png"
+ },
+ "fruit": {
+  "word": "fruit",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Fruit",
+  "file": "images/fruit.png"
+ },
+ "game": {
+  "word": "game",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Game",
+  "file": "images/game.png"
+ },
+ "garden": {
+  "word": "garden",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Garden",
+  "file": "images/garden.png"
+ },
+ "get": {
+  "word": "get",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:How_to_get_away_with_murder_in_Banbury_-_geograph.org.uk_-_4492763.jpg",
+  "file": "images/get.png"
+ },
+ "gift": {
+  "word": "gift",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Gift",
+  "file": "images/gift.png"
+ },
+ "girl": {
+  "word": "girl",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Girl",
+  "file": "images/girl.png"
+ },
+ "give": {
+  "word": "give",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Give_Kirke_-_(1).JPG",
+  "file": "images/give.png"
+ },
+ "glass": {
+  "word": "glass",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/List_of_glassware",
+  "file": "images/glass.png"
+ },
+ "grandfather": {
+  "word": "grandfather",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Grandparent",
+  "file": "images/grandfather.png"
+ },
+ "grandmother": {
+  "word": "grandmother",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Grandparent",
+  "file": "images/grandmother.png"
+ },
+ "grape": {
+  "word": "grape",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Grape",
+  "file": "images/grape.png"
+ },
+ "grass": {
+  "word": "grass",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Grass",
+  "file": "images/grass.png"
+ },
+ "green": {
+  "word": "green",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Green",
+  "file": "images/green.png"
+ },
+ "hair": {
+  "word": "hair",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Hair",
+  "file": "images/hair.png"
+ },
+ "half": {
+  "word": "half",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Building_at_1921-1921_One-Half_Avenue_D,_Galveston.jpg",
+  "file": "images/half.png"
+ },
+ "hand": {
+  "word": "hand",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Hand",
+  "file": "images/hand.png"
+ },
+ "head": {
+  "word": "head",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Head",
+  "file": "images/head.png"
+ },
+ "healthy": {
+  "word": "healthy",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Healthy_Deit_For_A_Healthy_Well_Well_and_Leave.jpg",
+  "file": "images/healthy.png"
+ },
+ "hear": {
+  "word": "hear",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Hearing",
+  "file": "images/hear.png"
+ },
+ "hill": {
+  "word": "hill",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Hill",
+  "file": "images/hill.png"
+ },
+ "holiday": {
+  "word": "holiday",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Holiday",
+  "file": "images/holiday.png"
+ },
+ "hometown": {
+  "word": "hometown",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Hometown_Intersection.JPG",
+  "file": "images/hometown.png"
+ },
+ "horse": {
+  "word": "horse",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Horse",
+  "file": "images/horse.png"
+ },
+ "hospital": {
+  "word": "hospital",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Hospital",
+  "file": "images/hospital.png"
+ },
+ "hour": {
+  "word": "hour",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Hour",
+  "file": "images/hour.png"
+ },
+ "house": {
+  "word": "house",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/House",
+  "file": "images/house.png"
+ },
+ "hurry": {
+  "word": "hurry",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Why_Hurry_(1924)_-_2.jpg",
+  "file": "images/hurry.png"
+ },
+ "hurt": {
+  "word": "hurt",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:John_Hurt_by_Walterlan_Papetti.jpg",
+  "file": "images/hurt.png"
+ },
+ "ice": {
+  "word": "ice",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Ice",
+  "file": "images/ice.png"
+ },
+ "ice_cream": {
+  "word": "ice cream",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Ice_cream",
+  "file": "images/ice_cream.png"
+ },
+ "internet": {
+  "word": "Internet",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Internet",
+  "file": "images/internet.png"
+ },
+ "job": {
+  "word": "job",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Izaut-de-l%27H%C3%B4tel_-_le_Job.jpg",
+  "file": "images/job.png"
+ },
+ "juice": {
+  "word": "juice",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Juice",
+  "file": "images/juice.png"
+ },
+ "jump": {
+  "word": "jump",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Jumping",
+  "file": "images/jump.png"
+ },
+ "keep": {
+  "word": "keep",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Keep",
+  "file": "images/keep.png"
+ },
+ "kid": {
+  "word": "kid",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Child",
+  "file": "images/kid.png"
+ },
+ "kitchen": {
+  "word": "kitchen",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Kitchen",
+  "file": "images/kitchen.png"
+ },
+ "kite": {
+  "word": "kite",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Kite",
+  "file": "images/kite.png"
+ },
+ "know": {
+  "word": "know",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Knowledge",
+  "file": "images/know.png"
+ },
+ "lake": {
+  "word": "lake",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Lake",
+  "file": "images/lake.png"
+ },
+ "learn": {
+  "word": "learn",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Learning",
+  "file": "images/learn.png"
+ },
+ "left": {
+  "word": "left",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Chiesa_dei_Gesuiti_(Venice)_-_left_transept_-_Organ_of_the_left_transept.jpg",
+  "file": "images/left.png"
+ },
+ "leg": {
+  "word": "leg",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Leg",
+  "file": "images/leg.png"
+ },
+ "let": {
+  "word": "let",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Lei_Tung_Station_2016_12_part2.jpg",
+  "file": "images/let.png"
+ },
+ "letter": {
+  "word": "letter",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Letter_%28message%29",
+  "file": "images/letter.png"
+ },
+ "library": {
+  "word": "library",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Library",
+  "file": "images/library.png"
+ },
+ "like": {
+  "word": "like",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:MontreGousset001.jpg",
+  "file": "images/like.png"
+ },
+ "lion": {
+  "word": "lion",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Lion",
+  "file": "images/lion.png"
+ },
+ "listen": {
+  "word": "listen",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Listen_monument_Ume%C3%A5.jpg",
+  "file": "images/listen.png"
+ },
+ "little": {
+  "word": "little",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Little_Rock_skyline,_July_2024.jpg",
+  "file": "images/little.png"
+ },
+ "live": {
+  "word": "live",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:James_Hetfield_with_Metallica_--_7_October_2004.jpg",
+  "file": "images/live.png"
+ },
+ "look": {
+  "word": "look",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:LOOK_Keo_Blade_Carbon_clipless_pedals.jpg",
+  "file": "images/look.png"
+ },
+ "lunch": {
+  "word": "lunch",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Lunch_atop_a_Skyscraper_-_Charles_Clyde_Ebbets.jpg",
+  "file": "images/lunch.png"
+ },
+ "make": {
+  "word": "make",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Make-up_artist.jpg",
+  "file": "images/make.png"
+ },
+ "man": {
+  "word": "man",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Man",
+  "file": "images/man.png"
+ },
+ "map": {
+  "word": "map",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Map",
+  "file": "images/map.png"
+ },
+ "maths": {
+  "word": "maths",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Mathematics",
+  "file": "images/maths.png"
+ },
+ "meat": {
+  "word": "meat",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Meat",
+  "file": "images/meat.png"
+ },
+ "meet": {
+  "word": "meet",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Year_1_MEET_Student.jpg",
+  "file": "images/meet.png"
+ },
+ "milk": {
+  "word": "milk",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Milk",
+  "file": "images/milk.png"
+ },
+ "minute": {
+  "word": "minute",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Minute",
+  "file": "images/minute.png"
+ },
+ "money": {
+  "word": "money",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Money",
+  "file": "images/money.png"
+ },
+ "monkey": {
+  "word": "monkey",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Monkey",
+  "file": "images/monkey.png"
+ },
+ "month": {
+  "word": "month",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Month",
+  "file": "images/month.png"
+ },
+ "moon": {
+  "word": "moon",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Moon",
+  "file": "images/moon.png"
+ },
+ "morning": {
+  "word": "morning",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Morning",
+  "file": "images/morning.png"
+ },
+ "mother": {
+  "word": "mother",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Mother",
+  "file": "images/mother.png"
+ },
+ "mouse": {
+  "word": "mouse",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Mouse",
+  "file": "images/mouse.png"
+ },
+ "mouth": {
+  "word": "mouth",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Mouth",
+  "file": "images/mouth.png"
+ },
+ "move": {
+  "word": "move",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg",
+  "file": "images/move.png"
+ },
+ "music": {
+  "word": "music",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Music",
+  "file": "images/music.png"
+ },
+ "name": {
+  "word": "name",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Name",
+  "file": "images/name.png"
+ },
+ "night": {
+  "word": "night",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Night",
+  "file": "images/night.png"
+ },
+ "noodle": {
+  "word": "noodle",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Noodle",
+  "file": "images/noodle.png"
+ },
+ "nurse": {
+  "word": "nurse",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Nursing",
+  "file": "images/nurse.png"
+ },
+ "open": {
+  "word": "open",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Open_Cluster_NGC_188,_Caldwell_1.jpg",
+  "file": "images/open.png"
+ },
+ "orange": {
+  "word": "orange",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Orange_%28fruit%29",
+  "file": "images/orange.png"
+ },
+ "panda": {
+  "word": "panda",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Giant_panda",
+  "file": "images/panda.png"
+ },
+ "paper": {
+  "word": "paper",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Paper",
+  "file": "images/paper.png"
+ },
+ "parent": {
+  "word": "parent",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Parent",
+  "file": "images/parent.png"
+ },
+ "park": {
+  "word": "park",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Park",
+  "file": "images/park.png"
+ },
+ "party": {
+  "word": "party",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Party",
+  "file": "images/party.png"
+ },
+ "pen": {
+  "word": "pen",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Pen",
+  "file": "images/pen.png"
+ },
+ "pencil": {
+  "word": "pencil",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Pencil",
+  "file": "images/pencil.png"
+ },
+ "people": {
+  "word": "people",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Isabella_L%C3%B6vin_signing_climate_law_referral.jpg",
+  "file": "images/people.png"
+ },
+ "pet": {
+  "word": "pet",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Pet",
+  "file": "images/pet.png"
+ },
+ "phone": {
+  "word": "phone",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Telephone",
+  "file": "images/phone.png"
+ },
+ "photo": {
+  "word": "photo",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Photograph",
+  "file": "images/photo.png"
+ },
+ "picture": {
+  "word": "picture",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Image",
+  "file": "images/picture.png"
+ },
+ "pig": {
+  "word": "pig",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Pig",
+  "file": "images/pig.png"
+ },
+ "ping_pong": {
+  "word": "ping-pong",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Table_tennis",
+  "file": "images/ping_pong.png"
+ },
+ "pink": {
+  "word": "pink",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Pink",
+  "file": "images/pink.png"
+ },
+ "place": {
+  "word": "place",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Restaurant_in_Place_D%27Youville,_Quebec_City.jpg",
+  "file": "images/place.png"
+ },
+ "plane": {
+  "word": "plane",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Airplane",
+  "file": "images/plane.png"
+ },
+ "plant": {
+  "word": "plant",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Plant",
+  "file": "images/plant.png"
+ },
+ "play": {
+  "word": "play",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Play_%28activity%29",
+  "file": "images/play.png"
+ },
+ "playground": {
+  "word": "playground",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Playground",
+  "file": "images/playground.png"
+ },
+ "police": {
+  "word": "police",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Police",
+  "file": "images/police.png"
+ },
+ "put": {
+  "word": "put",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Put_van_Nederhorst_in_de_mist._28-02-2021._(d.j.b)_31.jpg",
+  "file": "images/put.png"
+ },
+ "question": {
+  "word": "question",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Question",
+  "file": "images/question.png"
+ },
+ "quiet": {
+  "word": "quiet",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Quiet_Telescope.JPG",
+  "file": "images/quiet.png"
+ },
+ "rain": {
+  "word": "rain",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Rain",
+  "file": "images/rain.png"
+ },
+ "read": {
+  "word": "read",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Reading",
+  "file": "images/read.png"
+ },
+ "red": {
+  "word": "red",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Red",
+  "file": "images/red.png"
+ },
+ "rice": {
+  "word": "rice",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Rice",
+  "file": "images/rice.png"
+ },
+ "river": {
+  "word": "river",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/River",
+  "file": "images/river.png"
+ },
+ "robot": {
+  "word": "robot",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Robot",
+  "file": "images/robot.png"
+ },
+ "ruler": {
+  "word": "ruler",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Ruler",
+  "file": "images/ruler.png"
+ },
+ "run": {
+  "word": "run",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Running",
+  "file": "images/run.png"
+ },
+ "safe": {
+  "word": "safe",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Safe",
+  "file": "images/safe.png"
+ },
+ "say": {
+  "word": "say",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Thomas_Say.jpg",
+  "file": "images/say.png"
+ },
+ "school": {
+  "word": "school",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/School",
+  "file": "images/school.png"
+ },
+ "schoolbag": {
+  "word": "schoolbag",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Satchel",
+  "file": "images/schoolbag.png"
+ },
+ "science": {
+  "word": "science",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Science,_vol._1,_1883,_title_page.png",
+  "file": "images/science.png"
+ },
+ "sea": {
+  "word": "sea",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Sea",
+  "file": "images/sea.png"
+ },
+ "season": {
+  "word": "season",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Season",
+  "file": "images/season.png"
+ },
+ "see": {
+  "word": "see",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Haltern_am_See,_Sythen,_Quarzwerke,_Werkzeughalle_--_2014_--_4050-4.jpg",
+  "file": "images/see.png"
+ },
+ "sell": {
+  "word": "sell",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Christian_Sell_-_Preu%C3%9Fische_Infanterie.jpg",
+  "file": "images/sell.png"
+ },
+ "share": {
+  "word": "share",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Aktie_Cin%C3%A9matographique_(1).jpg",
+  "file": "images/share.png"
+ },
+ "sheep": {
+  "word": "sheep",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Sheep",
+  "file": "images/sheep.png"
+ },
+ "shirt": {
+  "word": "shirt",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Shirt",
+  "file": "images/shirt.png"
+ },
+ "shoe": {
+  "word": "shoe",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Shoe",
+  "file": "images/shoe.png"
+ },
+ "shop": {
+  "word": "shop",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Retail",
+  "file": "images/shop.png"
+ },
+ "shorts": {
+  "word": "shorts",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Kopfloser_B%C3%B6hringer.JPG",
+  "file": "images/shorts.png"
+ },
+ "show": {
+  "word": "show",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Kelso_borders_show_in_2022_horses.jpg",
+  "file": "images/show.png"
+ },
+ "sing": {
+  "word": "sing",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Singing",
+  "file": "images/sing.png"
+ },
+ "sister": {
+  "word": "sister",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Sister",
+  "file": "images/sister.png"
+ },
+ "skirt": {
+  "word": "skirt",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Skirt",
+  "file": "images/skirt.png"
+ },
+ "sleep": {
+  "word": "sleep",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Sleep",
+  "file": "images/sleep.png"
+ },
+ "snow": {
+  "word": "snow",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Snow",
+  "file": "images/snow.png"
+ },
+ "song": {
+  "word": "song",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Song",
+  "file": "images/song.png"
+ },
+ "soup": {
+  "word": "soup",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Soup",
+  "file": "images/soup.png"
+ },
+ "space": {
+  "word": "space",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Space",
+  "file": "images/space.png"
+ },
+ "sport": {
+  "word": "sport",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Sport",
+  "file": "images/sport.png"
+ },
+ "spring": {
+  "word": "spring",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Spring_%28season%29",
+  "file": "images/spring.png"
+ },
+ "stand": {
+  "word": "stand",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Stand-up_comedy_Bulgaria_Club.jpg",
+  "file": "images/stand.png"
+ },
+ "star": {
+  "word": "star",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Star",
+  "file": "images/star.png"
+ },
+ "stop": {
+  "word": "stop",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Railway_station_Kreiensen_1963.JPG",
+  "file": "images/stop.png"
+ },
+ "story": {
+  "word": "story",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Reus_Contios_vertelt_langs_de_waterkant_op_initiatief_van_Natuurpunt_-_%27Oude_spoorwegberm_Kontich%27.jpg",
+  "file": "images/story.png"
+ },
+ "street": {
+  "word": "street",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Street",
+  "file": "images/street.png"
+ },
+ "student": {
+  "word": "student",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Student",
+  "file": "images/student.png"
+ },
+ "study": {
+  "word": "study",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Milo%C5%A1_Jir%C3%A1nek,_A_Study_in_White.jpg",
+  "file": "images/study.png"
+ },
+ "subject": {
+  "word": "subject",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:243D_Regiment_RTI_Conducts_Subject-Matter_Expert_Exchange_in_The_Bahamas_(8837377).jpg",
+  "file": "images/subject.png"
+ },
+ "summer": {
+  "word": "summer",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Summer",
+  "file": "images/summer.png"
+ },
+ "sun": {
+  "word": "sun",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Sun",
+  "file": "images/sun.png"
+ },
+ "sunny": {
+  "word": "sunny",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Sunny,_the_Obama%27s_new_dog.jpg",
+  "file": "images/sunny.png"
+ },
+ "supermarket": {
+  "word": "supermarket",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Supermarket",
+  "file": "images/supermarket.png"
+ },
+ "sweater": {
+  "word": "sweater",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Sweater",
+  "file": "images/sweater.png"
+ },
+ "swim": {
+  "word": "swim",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Swimming",
+  "file": "images/swim.png"
+ },
+ "table": {
+  "word": "table",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Table_%28furniture%29",
+  "file": "images/table.png"
+ },
+ "tail": {
+  "word": "tail",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Tail",
+  "file": "images/tail.png"
+ },
+ "take": {
+  "word": "take",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_Prefectural_road_24_Kagoshima-Take.jpg",
+  "file": "images/take.png"
+ },
+ "talk": {
+  "word": "talk",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:If_you_talk_too_much,_this_man_may_die.jpg",
+  "file": "images/talk.png"
+ },
+ "tea": {
+  "word": "tea",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Tea",
+  "file": "images/tea.png"
+ },
+ "teacher": {
+  "word": "teacher",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Teacher",
+  "file": "images/teacher.png"
+ },
+ "tell": {
+  "word": "tell",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Tell_Barri_1.jpg",
+  "file": "images/tell.png"
+ },
+ "tidy": {
+  "word": "tidy",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Tidy_Street_-_geograph.org.uk_-_2533749.jpg",
+  "file": "images/tidy.png"
+ },
+ "tiger": {
+  "word": "tiger",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Tiger",
+  "file": "images/tiger.png"
+ },
+ "toilet": {
+  "word": "toilet",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Toilet",
+  "file": "images/toilet.png"
+ },
+ "tomato": {
+  "word": "tomato",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Tomato",
+  "file": "images/tomato.png"
+ },
+ "top": {
+  "word": "top",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Spinning_top_shadow.jpg",
+  "file": "images/top.png"
+ },
+ "train": {
+  "word": "train",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Train",
+  "file": "images/train.png"
+ },
+ "travel": {
+  "word": "travel",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Travel",
+  "file": "images/travel.png"
+ },
+ "tree": {
+  "word": "tree",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Tree",
+  "file": "images/tree.png"
+ },
+ "trousers": {
+  "word": "trousers",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Trousers",
+  "file": "images/trousers.png"
+ },
+ "try": {
+  "word": "try",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:ST-UBB_-_Cl%C3%A9ment_Poitrenaud_(essai).jpg",
+  "file": "images/try.png"
+ },
+ "turn": {
+  "word": "turn",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Toronto_Harbourfront7.jpg",
+  "file": "images/turn.png"
+ },
+ "tv": {
+  "word": "TV",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Television",
+  "file": "images/tv.png"
+ },
+ "umbrella": {
+  "word": "umbrella",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Umbrella",
+  "file": "images/umbrella.png"
+ },
+ "uncle": {
+  "word": "uncle",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Uncle",
+  "file": "images/uncle.png"
+ },
+ "use": {
+  "word": "use",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:A_shape_created_using_light_painting.jpg",
+  "file": "images/use.png"
+ },
+ "vegetable": {
+  "word": "vegetable",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Vegetable",
+  "file": "images/vegetable.png"
+ },
+ "visit": {
+  "word": "visit",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:State_visit_by_King_Frederik_X_of_Denmark_in_2024_03.jpg",
+  "file": "images/visit.png"
+ },
+ "wait": {
+  "word": "wait",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Curtin_University_from_Edinburgh_Oval.jpg",
+  "file": "images/wait.png"
+ },
+ "walk": {
+  "word": "walk",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Walking",
+  "file": "images/walk.png"
+ },
+ "wall": {
+  "word": "wall",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Wall",
+  "file": "images/wall.png"
+ },
+ "wash": {
+  "word": "wash",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Washing",
+  "file": "images/wash.png"
+ },
+ "watch": {
+  "word": "watch",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Watch",
+  "file": "images/watch.png"
+ },
+ "water": {
+  "word": "water",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Water",
+  "file": "images/water.png"
+ },
+ "wear": {
+  "word": "wear",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Wear",
+  "file": "images/wear.png"
+ },
+ "weather": {
+  "word": "weather",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Weather",
+  "file": "images/weather.png"
+ },
+ "week": {
+  "word": "week",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Week",
+  "file": "images/week.png"
+ },
+ "white": {
+  "word": "white",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/White",
+  "file": "images/white.png"
+ },
+ "win": {
+  "word": "win",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Metawin_Opas-iamkajorn_at_Idolo_event_(cropped).jpg",
+  "file": "images/win.png"
+ },
+ "windy": {
+  "word": "windy",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Windy_Zhan_20241013_(cropped).jpg",
+  "file": "images/windy.png"
+ },
+ "winter": {
+  "word": "winter",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Winter",
+  "file": "images/winter.png"
+ },
+ "woman": {
+  "word": "woman",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Woman",
+  "file": "images/woman.png"
+ },
+ "word": {
+  "word": "word",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Word",
+  "file": "images/word.png"
+ },
+ "work": {
+  "word": "work",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Chaplin_and_Purviance_in_Work.jpg",
+  "file": "images/work.png"
+ },
+ "worker": {
+  "word": "worker",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Wage_labour",
+  "file": "images/worker.png"
+ },
+ "world": {
+  "word": "world",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/World",
+  "file": "images/world.png"
+ },
+ "write": {
+  "word": "write",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Writing",
+  "file": "images/write.png"
+ },
+ "yellow": {
+  "word": "yellow",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Yellow",
+  "file": "images/yellow.png"
+ },
+ "zoo": {
+  "word": "zoo",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Zoo",
+  "file": "images/zoo.png"
+ },
+ "begin": {
+  "word": "begin",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Sadat_and_Begin_clean3.jpg",
+  "file": "images/begin.png"
+ },
+ "busy": {
+  "word": "busy",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Busy,_l%27%C3%A9glise.jpg",
+  "file": "images/busy.png"
+ },
+ "cook": {
+  "word": "cook",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Cooking",
+  "file": "images/cook.png"
+ },
+ "day": {
+  "word": "day",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Dust_storm_in_Black_Rocks_Desert_nn.jpg",
+  "file": "images/day.png"
+ },
+ "dog": {
+  "word": "dog",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Dog",
+  "file": "images/dog.png"
+ },
+ "dress": {
+  "word": "dress",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Dress",
+  "file": "images/dress.png"
+ },
+ "family": {
+  "word": "family",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Family",
+  "file": "images/family.png"
+ },
+ "foot": {
+  "word": "foot",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Foot",
+  "file": "images/foot.png"
+ },
+ "help": {
+  "word": "help",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:The_Help_logo.png",
+  "file": "images/help.png"
+ },
+ "lesson": {
+  "word": "lesson",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Lesson",
+  "file": "images/lesson.png"
+ },
+ "love": {
+  "word": "love",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_on_the_Butchers%27_Bridge_(Ljubljana).jpg",
+  "file": "images/love.png"
+ },
+ "middle": {
+  "word": "middle",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Euploea_core-Kadavoor-2016-09-08-002.jpg",
+  "file": "images/middle.png"
+ },
+ "nose": {
+  "word": "nose",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Nose",
+  "file": "images/nose.png"
+ },
+ "piano": {
+  "word": "piano",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Piano",
+  "file": "images/piano.png"
+ },
+ "potato": {
+  "word": "potato",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Potato",
+  "file": "images/potato.png"
+ },
+ "room": {
+  "word": "room",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Room",
+  "file": "images/room.png"
+ },
+ "ship": {
+  "word": "ship",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Ship",
+  "file": "images/ship.png"
+ },
+ "speak": {
+  "word": "speak",
+  "via": "commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Warren_New_Years_Eve_2019_campaign_speech_at_the_Old_South_Meeting_House_in_Boston,_Massachusetts_%E2%80%93_49649736347.jpg",
+  "file": "images/speak.png"
+ },
+ "rabbit": {
+  "word": "rabbit",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Rabbit",
+  "file": "images/rabbit.png"
+ },
+ "taxi": {
+  "word": "taxi",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Taxi",
+  "file": "images/taxi.png"
+ },
+ "toy": {
+  "word": "toy",
+  "via": "wiki",
+  "source": "https://en.wikipedia.org/wiki/Toy",
+  "file": "images/toy.png"
+ },
+ "a": {
+  "word": "a",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/a.png"
+ },
+ "an": {
+  "word": "an",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/an.png"
+ },
+ "about": {
+  "word": "about",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/about.png"
+ },
+ "after": {
+  "word": "after",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/after.png"
+ },
+ "again": {
+  "word": "again",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/again.png"
+ },
+ "age": {
+  "word": "age",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/age.png"
+ },
+ "all": {
+  "word": "all",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/all.png"
+ },
+ "also": {
+  "word": "also",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/also.png"
+ },
+ "always": {
+  "word": "always",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/always.png"
+ },
+ "and": {
+  "word": "and",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/and.png"
+ },
+ "angry": {
+  "word": "angry",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/angry.png"
+ },
+ "any": {
+  "word": "any",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/any.png"
+ },
+ "at": {
+  "word": "at",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/at.png"
+ },
+ "bad": {
+  "word": "bad",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/bad.png"
+ },
+ "be": {
+  "word": "be",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/be.png"
+ },
+ "beautiful": {
+  "word": "beautiful",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/beautiful.png"
+ },
+ "because": {
+  "word": "because",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/because.png"
+ },
+ "before": {
+  "word": "before",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/before.png"
+ },
+ "behind": {
+  "word": "behind",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/behind.png"
+ },
+ "beside": {
+  "word": "beside",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/beside.png"
+ },
+ "between": {
+  "word": "between",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/between.png"
+ },
+ "big": {
+  "word": "big",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/big.png"
+ },
+ "but": {
+  "word": "but",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/but.png"
+ },
+ "by": {
+  "word": "by",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/by.png"
+ },
+ "can": {
+  "word": "can",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/can.png"
+ },
+ "careful": {
+  "word": "careful",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/careful.png"
+ },
+ "clean": {
+  "word": "clean",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/clean.png"
+ },
+ "cold": {
+  "word": "cold",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/cold.png"
+ },
+ "cool": {
+  "word": "cool",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/cool.png"
+ },
+ "cute": {
+  "word": "cute",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/cute.png"
+ },
+ "dear": {
+  "word": "dear",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/dear.png"
+ },
+ "difficult": {
+  "word": "difficult",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/difficult.png"
+ },
+ "dirty": {
+  "word": "dirty",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/dirty.png"
+ },
+ "do": {
+  "word": "do",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/do.png"
+ },
+ "down": {
+  "word": "down",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/down.png"
+ },
+ "early": {
+  "word": "early",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/early.png"
+ },
+ "easy": {
+  "word": "easy",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/easy.png"
+ },
+ "every": {
+  "word": "every",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/every.png"
+ },
+ "excited": {
+  "word": "excited",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/excited.png"
+ },
+ "famous": {
+  "word": "famous",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/famous.png"
+ },
+ "far": {
+  "word": "far",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/far.png"
+ },
+ "fast": {
+  "word": "fast",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/fast.png"
+ },
+ "favourite": {
+  "word": "favourite",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/favourite.png"
+ },
+ "fine": {
+  "word": "fine",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/fine.png"
+ },
+ "for": {
+  "word": "for",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/for.png"
+ },
+ "free": {
+  "word": "free",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/free.png"
+ },
+ "from": {
+  "word": "from",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/from.png"
+ },
+ "go": {
+  "word": "go",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/go.png"
+ },
+ "good": {
+  "word": "good",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/good.png"
+ },
+ "goodbye": {
+  "word": "goodbye",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/goodbye.png"
+ },
+ "great": {
+  "word": "great",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/great.png"
+ },
+ "happy": {
+  "word": "happy",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/happy.png"
+ },
+ "hard": {
+  "word": "hard",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/hard.png"
+ },
+ "have": {
+  "word": "have",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/have.png"
+ },
+ "he": {
+  "word": "he",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/he.png"
+ },
+ "heavy": {
+  "word": "heavy",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/heavy.png"
+ },
+ "hello": {
+  "word": "hello",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/hello.png"
+ },
+ "helpful": {
+  "word": "helpful",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/helpful.png"
+ },
+ "her": {
+  "word": "her",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/her.png"
+ },
+ "here": {
+  "word": "here",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/here.png"
+ },
+ "hi": {
+  "word": "hi",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/hi.png"
+ },
+ "him": {
+  "word": "him",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/him.png"
+ },
+ "his": {
+  "word": "his",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/his.png"
+ },
+ "home": {
+  "word": "home",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/home.png"
+ },
+ "hot": {
+  "word": "hot",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/hot.png"
+ },
+ "how": {
+  "word": "how",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/how.png"
+ },
+ "hungry": {
+  "word": "hungry",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/hungry.png"
+ },
+ "i": {
+  "word": "I",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/i.png"
+ },
+ "idea": {
+  "word": "idea",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/idea.png"
+ },
+ "ill": {
+  "word": "ill",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/ill.png"
+ },
+ "in": {
+  "word": "in",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/in.png"
+ },
+ "interesting": {
+  "word": "interesting",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/interesting.png"
+ },
+ "it": {
+  "word": "it",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/it.png"
+ },
+ "its": {
+  "word": "its",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/its.png"
+ },
+ "kind": {
+  "word": "kind",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/kind.png"
+ },
+ "last": {
+  "word": "last",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/last.png"
+ },
+ "late": {
+  "word": "late",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/late.png"
+ },
+ "light": {
+  "word": "light",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/light.png"
+ },
+ "long": {
+  "word": "long",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/long.png"
+ },
+ "lot": {
+  "word": "lot",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/lot.png"
+ },
+ "lovely": {
+  "word": "lovely",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/lovely.png"
+ },
+ "many": {
+  "word": "many",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/many.png"
+ },
+ "may": {
+  "word": "may",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/may.png"
+ },
+ "me": {
+  "word": "me",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/me.png"
+ },
+ "miss": {
+  "word": "Miss",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/miss.png"
+ },
+ "mr": {
+  "word": "Mr",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/mr.png"
+ },
+ "mrs": {
+  "word": "Mrs",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/mrs.png"
+ },
+ "ms": {
+  "word": "Ms",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/ms.png"
+ },
+ "much": {
+  "word": "much",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/much.png"
+ },
+ "must": {
+  "word": "must",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/must.png"
+ },
+ "my": {
+  "word": "my",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/my.png"
+ },
+ "near": {
+  "word": "near",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/near.png"
+ },
+ "never": {
+  "word": "never",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/never.png"
+ },
+ "new": {
+  "word": "new",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/new.png"
+ },
+ "next": {
+  "word": "next",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/next.png"
+ },
+ "nice": {
+  "word": "nice",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/nice.png"
+ },
+ "no": {
+  "word": "no",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/no.png"
+ },
+ "not": {
+  "word": "not",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/not.png"
+ },
+ "now": {
+  "word": "now",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/now.png"
+ },
+ "o_clock": {
+  "word": "o'clock",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/o_clock.png"
+ },
+ "of": {
+  "word": "of",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/of.png"
+ },
+ "off": {
+  "word": "off",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/off.png"
+ },
+ "often": {
+  "word": "often",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/often.png"
+ },
+ "ok": {
+  "word": "OK",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/ok.png"
+ },
+ "old": {
+  "word": "old",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/old.png"
+ },
+ "on": {
+  "word": "on",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/on.png"
+ },
+ "or": {
+  "word": "or",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/or.png"
+ },
+ "our": {
+  "word": "our",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/our.png"
+ },
+ "out": {
+  "word": "out",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/out.png"
+ },
+ "over": {
+  "word": "over",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/over.png"
+ },
+ "pair": {
+  "word": "pair",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/pair.png"
+ },
+ "pe": {
+  "word": "PE",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/pe.png"
+ },
+ "please": {
+  "word": "please",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/please.png"
+ },
+ "right": {
+  "word": "right",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/right.png"
+ },
+ "sad": {
+  "word": "sad",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/sad.png"
+ },
+ "she": {
+  "word": "she",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/she.png"
+ },
+ "short": {
+  "word": "short",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/short.png"
+ },
+ "should": {
+  "word": "should",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/should.png"
+ },
+ "sit": {
+  "word": "sit",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/sit.png"
+ },
+ "slow": {
+  "word": "slow",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/slow.png"
+ },
+ "small": {
+  "word": "small",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/small.png"
+ },
+ "so": {
+  "word": "so",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/so.png"
+ },
+ "sock": {
+  "word": "sock",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/sock.png"
+ },
+ "some": {
+  "word": "some",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/some.png"
+ },
+ "sometimes": {
+  "word": "sometimes",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/sometimes.png"
+ },
+ "sorry": {
+  "word": "sorry",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/sorry.png"
+ },
+ "strong": {
+  "word": "strong",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/strong.png"
+ },
+ "sure": {
+  "word": "sure",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/sure.png"
+ },
+ "sweep": {
+  "word": "sweep",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/sweep.png"
+ },
+ "tall": {
+  "word": "tall",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/tall.png"
+ },
+ "thank": {
+  "word": "thank",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/thank.png"
+ },
+ "that": {
+  "word": "that",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/that.png"
+ },
+ "the": {
+  "word": "the",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/the.png"
+ },
+ "their": {
+  "word": "their",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/their.png"
+ },
+ "them": {
+  "word": "them",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/them.png"
+ },
+ "then": {
+  "word": "then",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/then.png"
+ },
+ "there": {
+  "word": "there",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/there.png"
+ },
+ "these": {
+  "word": "these",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/these.png"
+ },
+ "they": {
+  "word": "they",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/they.png"
+ },
+ "thin": {
+  "word": "thin",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/thin.png"
+ },
+ "think": {
+  "word": "think",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/think.png"
+ },
+ "this": {
+  "word": "this",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/this.png"
+ },
+ "those": {
+  "word": "those",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/those.png"
+ },
+ "time": {
+  "word": "time",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/time.png"
+ },
+ "tired": {
+  "word": "tired",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/tired.png"
+ },
+ "to": {
+  "word": "to",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/to.png"
+ },
+ "today": {
+  "word": "today",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/today.png"
+ },
+ "tomorrow": {
+  "word": "tomorrow",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/tomorrow.png"
+ },
+ "too": {
+  "word": "too",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/too.png"
+ },
+ "under": {
+  "word": "under",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/under.png"
+ },
+ "up": {
+  "word": "up",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/up.png"
+ },
+ "us": {
+  "word": "us",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/us.png"
+ },
+ "very": {
+  "word": "very",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/very.png"
+ },
+ "wake": {
+  "word": "wake",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/wake.png"
+ },
+ "want": {
+  "word": "want",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/want.png"
+ },
+ "warm": {
+  "word": "warm",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/warm.png"
+ },
+ "way": {
+  "word": "way",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/way.png"
+ },
+ "we": {
+  "word": "we",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/we.png"
+ },
+ "welcome": {
+  "word": "welcome",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/welcome.png"
+ },
+ "well": {
+  "word": "well",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/well.png"
+ },
+ "what": {
+  "word": "what",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/what.png"
+ },
+ "when": {
+  "word": "when",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/when.png"
+ },
+ "where": {
+  "word": "where",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/where.png"
+ },
+ "which": {
+  "word": "which",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/which.png"
+ },
+ "who": {
+  "word": "who",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/who.png"
+ },
+ "whose": {
+  "word": "whose",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/whose.png"
+ },
+ "why": {
+  "word": "why",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/why.png"
+ },
+ "will": {
+  "word": "will",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/will.png"
+ },
+ "window": {
+  "word": "window",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/window.png"
+ },
+ "wish": {
+  "word": "wish",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/wish.png"
+ },
+ "with": {
+  "word": "with",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/with.png"
+ },
+ "wonderful": {
+  "word": "wonderful",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/wonderful.png"
+ },
+ "worry": {
+  "word": "worry",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/worry.png"
+ },
+ "wrong": {
+  "word": "wrong",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/wrong.png"
+ },
+ "year": {
+  "word": "year",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/year.png"
+ },
+ "yes": {
+  "word": "yes",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/yes.png"
+ },
+ "yesterday": {
+  "word": "yesterday",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/yesterday.png"
+ },
+ "you": {
+  "word": "you",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/you.png"
+ },
+ "young": {
+  "word": "young",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/young.png"
+ },
+ "your": {
+  "word": "your",
+  "via": "ai-gen",
+  "source": "image_generation plugin (Kimi)",
+  "file": "images/your.png"
+ }
+}
