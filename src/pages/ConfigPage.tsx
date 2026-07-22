@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { ParentConfig } from '../types';
+import { playSequence, stopSpeaking } from '../tts';
 
 interface Props {
   config: ParentConfig;
@@ -9,6 +10,7 @@ interface Props {
 
 /**
  * Parent config page (F-009): round size, Chinese toggle, speech rate.
+ * Voice playback uses pre-generated recordings with TTS fallback.
  */
 export function ConfigPage({ config, onSave, onStart }: Props) {
   const [roundSize, setRoundSize] = useState(String(config.roundSize));
@@ -16,14 +18,48 @@ export function ConfigPage({ config, onSave, onStart }: Props) {
   const [rate, setRate] = useState(config.rate);
   const [error, setError] = useState('');
 
-  const handleSave = () => {
+  useEffect(() => {
+    return () => {
+      stopSpeaking();
+    };
+  }, []);
+
+  const buildConfig = (): ParentConfig | null => {
     const n = Number(roundSize);
     if (!Number.isInteger(n) || n < 1 || n > 500) {
       setError('每轮词数必须是 1–500 之间的整数');
-      return;
+      return null;
     }
     setError('');
-    onSave({ roundSize: n, readChinese, rate });
+    return {
+      roundSize: n,
+      readChinese,
+      rate,
+    };
+  };
+
+  const handleSave = () => {
+    const next = buildConfig();
+    if (next) onSave(next);
+  };
+
+  const handlePreview = () => {
+    const next = buildConfig();
+    if (!next) return;
+    playSequence(
+      {
+        word: 'apple',
+        letter: 'a',
+        matchType: 'initial',
+        priority: 1,
+        zh: '苹果',
+        sentenceEn: 'I eat an apple.',
+        sentenceZh: '我吃苹果。',
+        image: '',
+      },
+      next,
+      () => undefined,
+    );
   };
 
   return (
@@ -81,6 +117,13 @@ export function ConfigPage({ config, onSave, onStart }: Props) {
         <div className="flex gap-3">
           <button
             type="button"
+            onClick={handlePreview}
+            className="flex-1 rounded-xl bg-amber-100 px-4 py-3 text-xl font-bold text-amber-700 hover:bg-amber-200"
+          >
+            试听 🔊
+          </button>
+          <button
+            type="button"
             onClick={handleSave}
             className="flex-1 rounded-xl bg-slate-200 px-4 py-3 text-xl font-bold text-slate-700 hover:bg-slate-300"
           >
@@ -89,9 +132,11 @@ export function ConfigPage({ config, onSave, onStart }: Props) {
           <button
             type="button"
             onClick={() => {
-              handleSave();
-              const n = Number(roundSize);
-              if (Number.isInteger(n) && n >= 1 && n <= 500) onStart();
+              const next = buildConfig();
+              if (next) {
+                onSave(next);
+                onStart();
+              }
             }}
             className="flex-1 rounded-xl bg-sky-500 px-4 py-3 text-xl font-bold text-white hover:bg-sky-600"
           >
