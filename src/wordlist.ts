@@ -4,7 +4,7 @@ import type { WordEntry, WordList } from './types';
  * Load and validate the word list (PRD F-007).
  * Throws an Error with a clear message (including location) on bad data.
  */
-export async function loadWordList(url = '/data/words.json'): Promise<WordList> {
+export async function loadWordList(url = 'data/words.json'): Promise<WordList> {
   let raw: string;
   try {
     const res = await fetch(url);
