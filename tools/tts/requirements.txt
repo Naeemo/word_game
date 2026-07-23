@@ -1,1 +1,2 @@
 kokoro-mlx[zh]==0.1.2
+mlx-audio==0.4.5

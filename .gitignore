@@ -6,3 +6,5 @@ tools/tts/venv/
 .idea/
 .vscode/
 .DS_Store
+venv*/
+tmp/tts/
