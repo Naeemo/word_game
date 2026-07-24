@@ -5,12 +5,15 @@ Reads data/words.json, synthesizes 4 recordings per unique word, converts to
 mono 96k mp3 via ffmpeg, writes to data/audio/.
 
   {key}.en.mp3   - the English word itself        (Kokoro-82M, VOICE_EN)
-  {key}.zh.mp3   - the Chinese gloss              (Qwen3-TTS, VOICE_ZH + INSTRUCT_ZH)
+  {key}.zh.mp3   - the Chinese gloss              (VoxCPM2 voice clone, ZH_REF_AUDIO)
   {key}.s_en.mp3 - the English example sentence   (Kokoro-82M, VOICE_EN)
-  {key}.s_zh.mp3 - the Chinese example sentence   (Qwen3-TTS, VOICE_ZH + INSTRUCT_ZH)
+  {key}.s_zh.mp3 - the Chinese example sentence   (VoxCPM2 voice clone, ZH_REF_AUDIO)
 
-English uses Kokoro-82M (fast, clear); Chinese uses Qwen3-TTS-1.7B CustomVoice
-(natural, relaxed — picked by ear over all Kokoro zh voices).
+English uses Kokoro-82M (fast, clear). Chinese uses VoxCPM2 (2B, MLX) in voice
+cloning mode: ZH_REF_AUDIO is a VoxCPM2 voice-design sample ("温柔亲切的幼儿园
+女老师") picked by ear — cloning it keeps all 1000+ files in the exact same
+voice. To change the Chinese voice, replace ref_teacher.wav (or regenerate one
+with the instruct in tools/tts/README.md) and re-run.
 
 key = word.lower() with every non [a-z0-9] char replaced by "_"
 (ice cream -> ice_cream, o'clock -> o_clock, Mr -> mr).
@@ -41,9 +44,10 @@ FAIL_LOG = TMP_DIR / "failures.log"
 FFMPEG = "/opt/homebrew/bin/ffmpeg"
 
 VOICE_EN = "af_heart"  # Kokoro-82M: American English female, clear and warm
-VOICE_ZH = "Serena"  # Qwen3-TTS CustomVoice speaker (Mandarin female)
-INSTRUCT_ZH = "用自然、松弛、亲切的语气朗读，语速偏慢，像给小朋友讲故事一样"
-QWEN_MODEL = "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16"
+# Chinese: VoxCPM2 (MLX, 2B) voice cloning — ref clip is a voice-design sample
+# ("温柔亲切的幼儿园女老师") approved by ear. All zh files share this voice.
+VOXCPM2_MODEL = "mlx-community/VoxCPM2-8bit"
+ZH_REF_AUDIO = Path(__file__).resolve().parent / "ref_teacher.wav"
 SAMPLE_RATE = 24000
 
 # (suffix, words.json field, engine)
@@ -65,11 +69,11 @@ def log_failure(key: str, suffix: str, text: str, err: str) -> None:
 
 
 class Engines:
-    """Lazy-loaded TTS engines: Kokoro-82M for English, Qwen3-TTS for Chinese."""
+    """Lazy-loaded TTS engines: Kokoro-82M for English, VoxCPM2 for Chinese."""
 
     def __init__(self) -> None:
         self._kokoro = None
-        self._qwen = None
+        self._vox = None
 
     def synth_en(self, text: str, wav_path: Path) -> None:
         if self._kokoro is None:
@@ -81,29 +85,18 @@ class Engines:
         self._kokoro.save(text, str(wav_path), voice=VOICE_EN, speed=1.0, sample_rate=SAMPLE_RATE)
 
     def synth_zh(self, text: str, wav_path: Path) -> None:
-        if self._qwen is None:
-            from huggingface_hub import snapshot_download
-            from mlx_audio.tts.generate import load_model
+        if self._vox is None:
+            import numpy as np
+            import soundfile as sf
+            from mlx_audio.tts.utils import load
 
             t0 = time.time()
-            local = snapshot_download(QWEN_MODEL)  # cached after first download
-            self._qwen = load_model(Path(local))
-            print(f"qwen3-tts loaded in {time.time() - t0:.1f}s", flush=True)
-        from mlx_audio.tts.generate import generate_audio
-
-        generate_audio(
-            text=text,
-            model=self._qwen,
-            voice=VOICE_ZH,
-            instruct=INSTRUCT_ZH,
-            lang_code="zh",
-            output_path=str(TMP_DIR),
-            file_prefix="qwen_seg",
-            save=True,
-            play=False,
-            verbose=False,
-        )
-        (TMP_DIR / "qwen_seg_000.wav").replace(wav_path)
+            self._vox = load(VOXCPM2_MODEL)  # VoxCPM2-8bit, cached after first download
+            self._np = np
+            self._sf = sf
+            print(f"voxcpm2 loaded in {time.time() - t0:.1f}s", flush=True)
+        result = next(self._vox.generate(text=text, ref_audio=str(ZH_REF_AUDIO), max_tokens=800))
+        self._sf.write(str(wav_path), self._np.array(result.audio), 48000)
 
 
 def to_mp3(wav_path: Path, target: Path) -> None:
@@ -173,7 +166,6 @@ def main() -> int:
         )
 
     wav_path.unlink(missing_ok=True)
-    (TMP_DIR / "qwen_seg_000.wav").unlink(missing_ok=True)
 
     # Mirror data/audio/ into public/audio/ for the frontend.
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
