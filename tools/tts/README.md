@@ -28,7 +28,7 @@ tools/tts/venv/bin/python tools/tts/generate_audio.py --limit 5
 ```
 
 - 语料来源：`public/data/words.json`（word / zh / sentenceEn / sentenceZh 四个字段）
-- 产物：`public/audio/{key}.{en|zh|s_en|s_zh}.mp3`，跑完自动同步到 `public/audio/`
+- 产物：`public/audio/{key}.{en|zh|s_en|s_zh}.mp3`
 - key 规范：单词转小写、非 `[a-z0-9]` 字符替换为 `_`（`ice cream→ice_cream`、`o'clock→o_clock`、`Mr→mr`）；与前端 `src/tts.ts` 的 `wordKey()` 保持一致，改命名规则必须两边同步
 - 重复词串（如 box 同时属于 b 池和 x 池）只生成一次
 
