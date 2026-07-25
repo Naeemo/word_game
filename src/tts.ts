@@ -10,6 +10,14 @@ import type { WordEntry, ParentConfig } from './types';
 
 const FALLBACK_UNLOCK_MS = 2000;
 
+/**
+ * Cache-busting token for audio URLs. Browsers (especially Safari's media
+ * cache) can keep serving a stale mp3 even after the file is replaced, so
+ * every regeneration of the audio corpus MUST bump this token.
+ * Current corpus: VoxCPM2 "teacher" voice, generated 2026-07-24.
+ */
+const AUDIO_VERSION = 'voxcpm2-20260724';
+
 /** File-name key: lowercase, non [a-z0-9] → "_" (ice cream→ice_cream, o'clock→o_clock). */
 export function wordKey(word: string): string {
   return word.toLowerCase().replace(/[^a-z0-9]/g, '_');
@@ -56,13 +64,14 @@ interface Segment {
 
 export function buildSegments(word: WordEntry, config: ParentConfig): Segment[] {
   const key = wordKey(word.word);
-  const segments: Segment[] = [{ text: word.word, lang: 'en-US', audioUrl: `audio/${key}.en.mp3` }];
+  const url = (seg: string) => `audio/${key}.${seg}.mp3?v=${AUDIO_VERSION}`;
+  const segments: Segment[] = [{ text: word.word, lang: 'en-US', audioUrl: url('en') }];
   if (config.readChinese && word.zh)
-    segments.push({ text: word.zh, lang: 'zh-CN', audioUrl: `audio/${key}.zh.mp3` });
+    segments.push({ text: word.zh, lang: 'zh-CN', audioUrl: url('zh') });
   if (word.sentenceEn)
-    segments.push({ text: word.sentenceEn, lang: 'en-US', audioUrl: `audio/${key}.s_en.mp3` });
+    segments.push({ text: word.sentenceEn, lang: 'en-US', audioUrl: url('s_en') });
   if (config.readChinese && word.sentenceZh)
-    segments.push({ text: word.sentenceZh, lang: 'zh-CN', audioUrl: `audio/${key}.s_zh.mp3` });
+    segments.push({ text: word.sentenceZh, lang: 'zh-CN', audioUrl: url('s_zh') });
   return segments;
 }
 
