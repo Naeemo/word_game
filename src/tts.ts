@@ -14,9 +14,10 @@ const FALLBACK_UNLOCK_MS = 2000;
  * Cache-busting token for audio URLs. Browsers (especially Safari's media
  * cache) can keep serving a stale mp3 even after the file is replaced, so
  * every regeneration of the audio corpus MUST bump this token.
- * Current corpus: VoxCPM2 "teacher" voice, generated 2026-07-24.
+ * Current corpus: English Kokoro af_heart; Chinese Qwen3-TTS Base ICL clone
+ * of the same af_heart voice (ref_heart.wav), generated 2026-07-25.
  */
-const AUDIO_VERSION = 'voxcpm2-20260724';
+const AUDIO_VERSION = 'qwen3icl-heart-20260725';
 
 /** File-name key: lowercase, non [a-z0-9] → "_" (ice cream→ice_cream, o'clock→o_clock). */
 export function wordKey(word: string): string {

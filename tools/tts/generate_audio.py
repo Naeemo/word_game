@@ -5,15 +5,16 @@ Reads public/data/words.json, synthesizes 4 recordings per unique word,
 converts to mono 96k mp3 via ffmpeg, writes to public/audio/ (served by Vite).
 
   {key}.en.mp3   - the English word itself        (Kokoro-82M, VOICE_EN)
-  {key}.zh.mp3   - the Chinese gloss              (VoxCPM2 voice clone, ZH_REF_AUDIO)
+  {key}.zh.mp3   - the Chinese gloss              (Qwen3-TTS Base ICL clone of ZH_REF_AUDIO)
   {key}.s_en.mp3 - the English example sentence   (Kokoro-82M, VOICE_EN)
-  {key}.s_zh.mp3 - the Chinese example sentence   (VoxCPM2 voice clone, ZH_REF_AUDIO)
+  {key}.s_zh.mp3 - the Chinese example sentence   (Qwen3-TTS Base ICL clone of ZH_REF_AUDIO)
 
-English uses Kokoro-82M (fast, clear). Chinese uses VoxCPM2 (2B, MLX) in voice
-cloning mode: ZH_REF_AUDIO is a VoxCPM2 voice-design sample ("温柔亲切的幼儿园
-女老师") picked by ear — cloning it keeps all 1000+ files in the exact same
-voice. To change the Chinese voice, replace ref_teacher.wav (or regenerate one
-with the instruct in tools/tts/README.md) and re-run.
+English uses Kokoro-82M (fast, clear). Chinese uses Qwen3-TTS-12Hz-1.7B-Base
+(8bit, MLX) in ICL voice-cloning mode: the reference clip ZH_REF_AUDIO is itself
+Kokoro af_heart speech (3 example sentences concatenated, transcript in
+ref_heart.txt), so Chinese audio carries the same bright, clear timbre as the
+English line — picked by ear in the round-4 bake-off (2026-07, scripts in compare/).
+To change the Chinese voice, replace ref_heart.wav + ref_heart.txt and re-run.
 
 key = word.lower() with every non [a-z0-9] char replaced by "_"
 (ice cream -> ice_cream, o'clock -> o_clock, Mr -> mr).
@@ -42,10 +43,12 @@ FAIL_LOG = TMP_DIR / "failures.log"
 FFMPEG = "/opt/homebrew/bin/ffmpeg"
 
 VOICE_EN = "af_heart"  # Kokoro-82M: American English female, clear and warm
-# Chinese: VoxCPM2 (MLX, 2B) voice cloning — ref clip is a voice-design sample
-# ("温柔亲切的幼儿园女老师") approved by ear. All zh files share this voice.
-VOXCPM2_MODEL = "mlx-community/VoxCPM2-8bit"
-ZH_REF_AUDIO = Path(__file__).resolve().parent / "ref_teacher.wav"
+# Chinese: Qwen3-TTS-12Hz-1.7B-Base (MLX, 8bit) ICL voice cloning — the ref clip
+# is Kokoro af_heart speech (transcript in ref_heart.txt), so zh audio shares the
+# English line's bright timbre. Chosen in the round-4 bake-off (see compare/).
+QWEN3_MODEL = "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit"
+ZH_REF_AUDIO = Path(__file__).resolve().parent / "ref_heart.wav"
+ZH_REF_TEXT = (Path(__file__).resolve().parent / "ref_heart.txt").read_text(encoding="utf-8").strip()
 SAMPLE_RATE = 24000
 
 # (suffix, words.json field, engine)
@@ -67,11 +70,11 @@ def log_failure(key: str, suffix: str, text: str, err: str) -> None:
 
 
 class Engines:
-    """Lazy-loaded TTS engines: Kokoro-82M for English, VoxCPM2 for Chinese."""
+    """Lazy-loaded TTS engines: Kokoro-82M for English, Qwen3-TTS for Chinese."""
 
     def __init__(self) -> None:
         self._kokoro = None
-        self._vox = None
+        self._qwen = None
 
     def synth_en(self, text: str, wav_path: Path) -> None:
         if self._kokoro is None:
@@ -83,18 +86,28 @@ class Engines:
         self._kokoro.save(text, str(wav_path), voice=VOICE_EN, speed=1.0, sample_rate=SAMPLE_RATE)
 
     def synth_zh(self, text: str, wav_path: Path) -> None:
-        if self._vox is None:
+        if self._qwen is None:
             import numpy as np
             import soundfile as sf
             from mlx_audio.tts.utils import load
 
             t0 = time.time()
-            self._vox = load(VOXCPM2_MODEL)  # VoxCPM2-8bit, cached after first download
+            self._qwen = load(QWEN3_MODEL)  # CustomVoice-bf16, cached after first download
             self._np = np
             self._sf = sf
-            print(f"voxcpm2 loaded in {time.time() - t0:.1f}s", flush=True)
-        result = next(self._vox.generate(text=text, ref_audio=str(ZH_REF_AUDIO), max_tokens=800))
-        self._sf.write(str(wav_path), self._np.array(result.audio), 48000)
+            print(f"qwen3-tts loaded in {time.time() - t0:.1f}s", flush=True)
+        result = next(
+            self._qwen.generate(
+                text=text,
+                ref_audio=str(ZH_REF_AUDIO),
+                ref_text=ZH_REF_TEXT,
+                lang_code="chinese",
+                max_tokens=800,
+                temperature=0.7,  # lower temp = more stable pronunciation on isolated glosses
+            )
+        )
+        sr = getattr(result, "sample_rate", None) or self._qwen.sample_rate
+        self._sf.write(str(wav_path), self._np.array(result.audio), sr)
 
 
 def to_mp3(wav_path: Path, target: Path) -> None:
