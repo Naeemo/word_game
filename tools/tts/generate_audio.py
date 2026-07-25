@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Offline batch TTS generation for the word game corpus.
 
-Reads data/words.json, synthesizes 4 recordings per unique word, converts to
-mono 96k mp3 via ffmpeg, writes to data/audio/.
+Reads public/data/words.json, synthesizes 4 recordings per unique word,
+converts to mono 96k mp3 via ffmpeg, writes to public/audio/ (served by Vite).
 
   {key}.en.mp3   - the English word itself        (Kokoro-82M, VOICE_EN)
   {key}.zh.mp3   - the Chinese gloss              (VoxCPM2 voice clone, ZH_REF_AUDIO)
@@ -19,8 +19,7 @@ key = word.lower() with every non [a-z0-9] char replaced by "_"
 (ice cream -> ice_cream, o'clock -> o_clock, Mr -> mr).
 
 Idempotent: existing non-empty mp3 files are skipped. Failures are logged to
-tmp/tts/failures.log and do not abort the run. At the end data/audio/ is
-mirrored to public/audio/ for the frontend.
+tmp/tts/failures.log and do not abort the run.
 
 Usage:
   tools/tts/venv/bin/python tools/tts/generate_audio.py            # full run
@@ -36,9 +35,8 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-WORDS_JSON = ROOT / "data" / "words.json"
-OUT_DIR = ROOT / "data" / "audio"
-PUBLIC_DIR = ROOT / "public" / "audio"
+WORDS_JSON = ROOT / "public" / "data" / "words.json"
+OUT_DIR = ROOT / "public" / "audio"
 TMP_DIR = ROOT / "tmp" / "tts"
 FAIL_LOG = TMP_DIR / "failures.log"
 FFMPEG = "/opt/homebrew/bin/ffmpeg"
@@ -166,10 +164,6 @@ def main() -> int:
         )
 
     wav_path.unlink(missing_ok=True)
-
-    # Mirror data/audio/ into public/audio/ for the frontend.
-    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
-    subprocess.run(["rsync", "-a", f"{OUT_DIR}/", f"{PUBLIC_DIR}/"], check=True)
 
     print(
         f"FINISHED in {(time.time() - start) / 60:.1f} min: "

@@ -8,4 +8,3 @@ tools/tts/venv/
 .DS_Store
 venv*/
 tmp/tts/
-public/

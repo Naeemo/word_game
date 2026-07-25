@@ -7,22 +7,19 @@
 
 ## 目录结构
 
-| 目录 | 性质 | 说明 |
-|------|------|------|
-| `data/` | **数据源（唯一）** | `words.json` 词表 + `audio/` 全部录音 |
-| `images/` | **数据源（唯一）** | 全部单词配图 |
-| `public/` | 生成物，**不入库** | Vite 静态目录，是 `data/` + `images/` 的镜像，由 `npm run sync:assets` 生成（`predev`/`prebuild` 钩子自动执行） |
-| `dist/` | 生成物，**不入库** | 构建产物 |
-| `src/` | 源码 | React 应用本体 |
-| `tools/` | 工具管线 | `tts/`：语音生成管线（见 [tools/tts/README.md](tools/tts/README.md)）；`sync-assets.sh`：镜像同步 |
-| `tmp/` | 溯源材料 | 词表构建脚本与语料来源、TTS 试听对比样例；一次性用途，可随时清空 |
+| 目录 | 说明 |
+|------|------|
+| `public/` | 静态资源（Vite 标准目录）：`data/words.json` 词表、`images/` 配图、`audio/` 全部录音 |
+| `src/` | React 应用源码 |
+| `tools/` | 工具管线：`tts/` 语音生成管线（见 [tools/tts/README.md](tools/tts/README.md)） |
+| `dist/` | 构建产物（生成，不入库） |
 
-改词表/图片/音频只动 `data/` 和 `images/`，不要动 `public/`（会被覆盖）。
+改词表/图片/音频直接动 `public/` 下对应文件。
 
 ## 常用命令
 
 ```bash
-npm run dev        # 本地开发（自动先同步 public/ 镜像）
+npm run dev        # 本地开发
 npm run build      # 构建到 dist/（含 tsc 检查）
 npm test           # 调度算法单元测试
 tools/tts/venv/bin/python tools/tts/generate_audio.py   # 词表变更后增量补语音

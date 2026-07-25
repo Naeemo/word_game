@@ -27,8 +27,8 @@ tools/tts/venv/bin/python tools/tts/generate_audio.py
 tools/tts/venv/bin/python tools/tts/generate_audio.py --limit 5
 ```
 
-- 语料来源：`data/words.json`（word / zh / sentenceEn / sentenceZh 四个字段）
-- 产物：`data/audio/{key}.{en|zh|s_en|s_zh}.mp3`，跑完自动同步到 `public/audio/`
+- 语料来源：`public/data/words.json`（word / zh / sentenceEn / sentenceZh 四个字段）
+- 产物：`public/audio/{key}.{en|zh|s_en|s_zh}.mp3`，跑完自动同步到 `public/audio/`
 - key 规范：单词转小写、非 `[a-z0-9]` 字符替换为 `_`（`ice cream→ice_cream`、`o'clock→o_clock`、`Mr→mr`）；与前端 `src/tts.ts` 的 `wordKey()` 保持一致，改命名规则必须两边同步
 - 重复词串（如 box 同时属于 b 池和 x 池）只生成一次
 
@@ -36,8 +36,8 @@ tools/tts/venv/bin/python tools/tts/generate_audio.py --limit 5
 
 - **词表增删词**：直接跑增量命令即可，新词自动生成、旧文件不动
 - **换英文音色**：改 `generate_audio.py` 的 `VOICE_EN`（Kokoro：如 `af_heart`、`af_bella`、`am_adam`），删掉对应 en/s_en 文件后增量重跑
-- **换中文声音**：替换 `tools/tts/ref_teacher.wav` 为新的参考音频（几秒干净人声即可；想重新"设计"一个音色，用 mlx-audio 的 VoxCPM2 `instruct` 声音设计模式生成样例，试听满意后拿样例当参考音频），然后 `rm -f data/audio/*.zh.mp3 data/audio/*.s_zh.mp3` 增量重跑（1012 个文件约 2 小时）
-- **全量重新生成**：`rm -rf data/audio public/audio` 后跑全量命令（2024 个文件约 2 小时）
+- **换中文声音**：替换 `tools/tts/ref_teacher.wav` 为新的参考音频（几秒干净人声即可；想重新"设计"一个音色，用 mlx-audio 的 VoxCPM2 `instruct` 声音设计模式生成样例，试听满意后拿样例当参考音频），然后 `rm -f public/audio/*.zh.mp3 public/audio/*.s_zh.mp3` 增量重跑（1012 个文件约 2 小时）
+- **全量重新生成**：`rm -rf public/audio` 后跑全量命令（2024 个文件约 2 小时）
 - **失败排查**：失败项记录在 `tmp/tts/failures.log`，不中断整体；重跑命令即可补齐
 
 ## 文件说明
